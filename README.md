@@ -2,19 +2,15 @@
 
 An unofficial Windows utility to diagnose and safely recover missing Codex Desktop local projects when the local SQLite project catalog is intact.
 
-## Download
+## Package
 
-Download the complete v1.0.0 package:
-
-- [codex-local-project-recovery-v1.0.0.zip](codex-local-project-recovery-v1.0.0.zip)
-
-The archive contains the PowerShell launcher, Python recovery engine, rollback helper, documentation, MIT license, tests, and GitHub Actions workflow.
+The v1.0.0 source package is being prepared for publication. The repository will contain the PowerShell launcher, Python recovery engine, rollback helper, documentation, MIT license, tests, and GitHub Actions workflow.
 
 ## Important
 
 This is an independent community utility. It is **not affiliated with, endorsed by, or supported by OpenAI**.
 
-The tool edits Codex internal local state files, which are undocumented and may change between releases. Read the included README and risk documentation before use. Always keep a backup. The tool is not guaranteed to work on every Codex Desktop version or every missing-project scenario.
+The tool edits Codex internal local state files, which are undocumented and may change between releases. Read the included documentation and risk notes before use. Always keep a backup. The tool is not guaranteed to work on every Codex Desktop version or every missing-project scenario.
 
 ## Maintainer's recovery report
 
@@ -22,4 +18,4 @@ The recovery approach helped restore all 9 local project entries and 37 saved co
 
 ## License
 
-MIT. See the LICENSE file inside the archive.
+MIT. See [LICENSE](LICENSE).
